@@ -60,7 +60,7 @@ export function Showcase() {
             >
               <div className="relative overflow-hidden rounded-3xl bg-muted aspect-[4/3] shadow-card">
                 <motion.img
-                  src={w.img}
+                  src={w.img.src}
                   alt={w.title}
                   loading="lazy"
                   className="h-full w-full object-cover"
